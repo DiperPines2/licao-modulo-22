@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", sans-serif;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 35vh auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #ffffff;
+    padding: 50px;
+    border: 1px solid rgb(255, 255, 255) ;
+    border-radius: 5px;
+
+    .data{
+        color: rgb(196, 86, 86);
+    }
+}
