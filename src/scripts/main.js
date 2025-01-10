@@ -1,7 +1,7 @@
 
 
 
-const aniversario = new Date('Apr 13, 2025 15:00:00')
+const aniversario = new Date('Jan 22, 2025 00:00:01')
 const timeStampAniversario = aniversario.getTime()
 
 const contador = setInterval(function() {
